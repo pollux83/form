@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 99%;
+    color: rgb(64, 92, 96);
+}
+
+/* close commented backslash hack */
+.header {
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    height: 40px;
+    padding: 10px;
+}
+
+.content {
+    width: 70%;
+    min-height: 200px;
+    padding: 10px;
+    margin:0 auto;
+}
+
+.footer {
+    margin-top: 10px;
+    background: #FFFFFF;
+    height: 40px;
+}
+
+.logout {
+    float: right;
+}
+#wrapper h1{
+    font-size: medium;
+}
+.footer p {
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+}
+#wrapper .content, #wrapper .header{
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -webkit-box-shadow: 5px;
+}
