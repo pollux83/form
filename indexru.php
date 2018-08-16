@@ -7,6 +7,7 @@ if(count($_GET) >0 && array_key_exists('act', $_GET) && $_GET['act'] == 'logout'
 }
 $session->mark($language);
 $title = 'Форма входа и регистрации';
+$css_main = null;
 ?>
 
 <?php require_once('inc/header.php'); ?>
