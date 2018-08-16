@@ -4,6 +4,7 @@ $language = 'en';
 $session = new Session();
 $session->mark($language);
 $title = 'Login and Registration Form';
+$css_main = null;
 ?>
 
 <?php require_once('inc/header.php'); ?>
